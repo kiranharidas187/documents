@@ -2,7 +2,7 @@
  * name : app.js
  * author : Rakesh Kumar
  * Date : 01-June-2022
- * Description : Start file of a user service
+ * Description : Start file of a documents service
  */
 
  const express = require('express')

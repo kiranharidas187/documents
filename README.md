@@ -1,7 +1,7 @@
 # Document Service
 
 
-## 1. Cloning the User repository into your system
+## 1. Cloning the Documents repository into your system
 
 Goto https://github.com/ELEVATE-Project/documents From the code tab copy the link. Using that link clone the repository into your local machine.
 
@@ -17,17 +17,12 @@ git clone https://github.com/ELEVATE-Project/documents
     create  a file named as .env in ./src/ directory of the project and copy below code into that file.
     Add fallowing enviorment configs
 
-## 3. Run mongodb locally
-
-spacify the mongo port and ip in .env
-application takes the db as specified in the .env
-
 ### Required Environment variables:
 
 ````
 ```
 
-#User Service Config
+#Documents Service Config
 
 # Port on which service runs
 APPLICATION_PORT = 3000
@@ -41,11 +36,11 @@ APPLICATION_BASE_URL = /documents/
 ```
 ````
 
-## 4. Install Npm
+## 3. Install Npm
 
     npm i
     To install the dependencies in your local machine.
 
-## 5. To Run server
+## 4. To Run server
 
     npm start
