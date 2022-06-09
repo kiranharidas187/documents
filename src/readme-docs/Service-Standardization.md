@@ -34,7 +34,7 @@ This document specifies structural and code-level standardization steps that sho
 
 ### **Installation & Setup**
 
-1.  Install Prettier, Eslint, husky:
+1.  Install Prettier & Eslint:
 
     ```
     ELEVATE/<service-name>/src$ npm install prettier eslint --save-dev
