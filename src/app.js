@@ -8,7 +8,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-
 require('dotenv').config({ path: './.env' });
 
 let environmentData = require('./envVariables')();
@@ -39,6 +38,33 @@ if (process.env.ENABLE_LOG === 'true') {
 		next();
 	});
 }
+
+//  var Renderer = require('docsify-server-renderer')
+// var readFileSync = require('fs').readFileSync
+
+// // init
+// var renderer = new Renderer({
+//   template: readFileSync('./docsify/index.html', 'utf-8'),
+//   config: {
+//     name: 'Test',
+//     basePath: '/docsify',
+//     repo: 'te/st',
+//     loaddNavbar: true,
+//     loadSidebar: true,
+//     subMaxLevel: 3,
+//     auto2top: true
+//   }
+// })
+// app.get('/docsify', (req, res) =>{
+//     renderer.renderToString(req.url, (html, err) =>{
+//         if(err) {
+//             console.log("err",err);
+//         }
+
+//         res.send(html);
+//         console.log(html)
+//     })
+// })
 
 /* Registered routes here */
 require('./routes')(app);
