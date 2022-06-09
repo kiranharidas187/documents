@@ -179,12 +179,12 @@ This document specifies structural and code-level standardization steps that sho
 
     -   Add following **lint-staged** configuration to **package.json**:
 
-            ```
-            "lint-staged": {
-                "../*": "prettier --ignore-unknown --write",
-                "*": "prettier --ignore-unknown --write"
-            },
-            ```
+        ```
+        "lint-staged": {
+            "../*": "prettier --ignore-unknown --write",
+            "*": "prettier --ignore-unknown --write"
+        },
+        ```
 
     Note: If no tests are specified, configure test script to exit with value 0 in **package.json (Scripts)**.
 
