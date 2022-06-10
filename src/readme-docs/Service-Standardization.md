@@ -24,13 +24,14 @@ This document specifies structural and code-level standardization steps that sho
 
 ## Code-Level Standardization
 
-### **Packages Used**
+### **Packages/Tools Used**
 
 1. Prettier
 2. Eslint
 3. Module-Alias
 4. husky
 5. lint-staged
+6. JsConfig
 
 ### **Installation & Setup**
 
@@ -127,6 +128,37 @@ This document specifies structural and code-level standardization steps that sho
     	"@services": "services",
     	"@validators": "validators"
     }
+    ```
+
+    A **jsconfig.json** file is required in the **src** directory in order for **IntelliSense** features to work with module aliases:
+
+    **jsconfig.json** sample:
+
+    ```
+    {
+        "compilerOptions": {
+            "module": "commonjs",
+            "target": "es6",
+            "baseUrl": "./",
+            "moduleResolution": "node",
+            "resolveJsonModule": true,
+            "paths": {
+                "@configs*": ["./configs*"],
+                "@constants*": ["./constants*"],
+                "@controllers*": ["./controllers*"],
+                "@db*": ["./db*"],
+                "@generics*": ["./generics*"],
+                "@health-checks*": ["./health-checks*"],
+                "@middlewares*": ["./middlewares*"],
+                "@public*": ["./public*"],
+                "@routes*": ["./routes*"],
+                "@services*": ["./services*"],
+                "@validators*": ["./validators*"]
+            }
+        },
+        "exclude": ["node_modules"]
+    }
+
     ```
 
 3.  Install Husky & Lint-Staged:
