@@ -44,7 +44,7 @@ This document specifies structural and code-level standardization steps that sho
     -   Add **.prettierrc.json** file to root of service directory:
 
         ```
-        ./notification/
+        ./<service-name>/
         ├── .prettierrc.json    <----
         ├── README.md
         └── src
