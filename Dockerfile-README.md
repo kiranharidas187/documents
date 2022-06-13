@@ -11,7 +11,7 @@ This document specifies how **Dockerfile** should be written and setup for all E
 
 ## Expected Root Directory Structure
 
-    ./notification/
+    ./<service-name>/
     ├── .circleci
     ├── Dockerfile      <----
     ├── .dockerignore

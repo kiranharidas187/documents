@@ -74,7 +74,7 @@ This document specifies structural and code-level standardization steps that sho
     -   Add **.eslintrc.json** file to src directory of service:
 
         ```
-        ./notification/src
+        ./<service-name>/src
         ├── app.js
         ├── .eslintrc.json  <----
         └── validators
