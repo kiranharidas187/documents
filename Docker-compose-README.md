@@ -31,7 +31,7 @@ Every micro-service directory should be placed in the same root directory as tha
 
 This directory structure ensures proper relative paths from docker-compose file to appropriate micro-services.
 
-Each micro-service which should be part of docker-compose must have a Dockerfile in its root directory.
+Note: Each micro-service which should be part of docker-compose must have a Dockerfile in its root directory. Refer to Dockerfile README for instructions on creating a Dockerfile.
 
     ./ELEVATE/
     ├── documents
