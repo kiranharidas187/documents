@@ -195,7 +195,7 @@ This document specifies structural and code-level standardization steps that sho
         └── pre-commit
         ```
 
-    -   Modify the contents of **pre-hook** file as shown:
+    -   Modify the contents of **pre-commit** file as shown:
 
         ```
         #!/usr/bin/env sh
@@ -215,7 +215,7 @@ This document specifies structural and code-level standardization steps that sho
         "lint-staged": {
             "../*": "prettier --ignore-unknown --write",
             "*": "prettier --ignore-unknown --write"
-        },
+        }
         ```
 
     Note: If no tests are specified, configure test script to exit with value 0 in **package.json (Scripts)**.
