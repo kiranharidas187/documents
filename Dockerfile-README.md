@@ -1,6 +1,6 @@
 # Dockerfile README
 
-This document specifies how **Dockerfile** should be written and setup for all Elevate micro-services.
+This document specifies how **Dockerfile** should be written and setup for each Elevate micro-services.
 
 ## Specifications
 
