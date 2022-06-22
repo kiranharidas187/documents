@@ -16,27 +16,37 @@
   - Analyze Feedback on Sessions
   - Extending MentorEd 
 
-- [Using the MentorEd Mobile Application](userguide.md#using_the_mentored_mobile_application)
-  - [Overview](userguide#overview)
-  - [MentorEd Mobile Application for Mentors](userguide#mentored-mobile-application-for-mentors)
-    - [Signing up on MentorEd](userguide#signing-up)
-    - [Logging in](userguide#logging-in) 
-    - [Creating and Managing Your Profile](userguide#creating-and-managing-your-profile)
-    - [Using the Mentor Directory](userguide#mentor-directory)
-    - [Connecting with Other Mentors](userguide.md#connecting-with-mentors)
-    - [Setting up a Mentoring Session](userguide.md#setting-up-a-mentored-session)
-    - [Inviting Mentors and Mentees](userguide#inviting-mentors-and-mentees)
-    - [Starting a Mentoring Session](userguide#starting-a-mentoring-session)
-    - [Presenting a File](userguide?id=presenting-a-file)
-  - [MentorEd Mobile Application for Mentees](userguide.md#mentored-mobile-application-for-mentees)
-    - [Signing up as a Mentee](userguide?id=signing-up-1)
-    - [Logging in](userguide?id=logging-in-1) 
-    - [Discovering MentorEd Sessions](userguide?id=receiving-notifications-about-upcoming-mentoring-sessions)
-    - [Connect with Mentors](userguide?id=mentor-directory-1)
-    - [Enrolling for a MentorEd Sessions](userguide?id=enrolling-for-a-mentored-session-1)
-    - [Joining a MentorEd Session](userguide?id=joining-a-mentored-session-1)
-      - [Using the App](userguide?id=joining-a-mentored-session-1)
-      - [Using a Link](userguide?id=joining-a-mentored-session-using-a-shared-link-1)
+- [Using the MentorED Mobile Application](using-the-mentored-mobile-application.md)
+  - [Overview](overview.md)
+  - [Notifications](notifications.md)
+  - [MentorED Mobile Application for Mentors](mentored-mobile-application-for-mentors.md)
+    - [Signing up on MentorED](signing-up-as-a-mentor.md)
+    - [Logging in](logging-in.md) 
+    - [Creating and Managing Your Profile](creating-and-managing-mentor-profile.md)
+    - [Using the Mentor Directory](mentor-directory.md)
+   
+    - [Setting up a Mentoring Session](setting-up-a-mentored-session.md)
+    - [Inviting Mentors and Mentees](inviting-mentors-and-mentees.md)
+    - [Starting a Mentoring Session](starting-a-session.md)
+    - [Enrolling for MentorED Sessions](enrolling-for-a-session.md)
+
+    - [Joining a MentorED Session](joining-a-session.md)
+      - [Using the App](joining-a-session.md)
+      - [Using a Link](joining-sessions-using-a-shared-link.md)
+   
+  - [MentorED Mobile Application for Mentees](mentored-mobile-application-for-mentees.md)
+
+    - [Signing up as a Mentee](signing-up-as-a-mentee.md)
+    
+    - [Logging in](logging-in.md) 
+    - [Creating and Managing Your Profile](creating-and-managing-mentee-profile.md)
+
+    - [Using the Mentor Directory](mentor-directory.md)
+    - [Enrolling for MentorED Sessions](enrolling-for-a-session.md)
+    - [Inviting Mentors and Mentees](inviting-mentors-and-mentees.md)
+    - [Joining a MentorED Session](joining-a-session.md)
+      - [Using the App](joining-a-session.md)
+      - [Using a Link](joining-sessions-using-a-shared-link.md)
 
 
 
