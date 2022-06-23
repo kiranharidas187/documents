@@ -130,22 +130,13 @@ You cannot use the application without creating your profile.
 ### Mentor Directory
 
 
-> [!COMMENT]
-> 
-> -   Will the mentor profile details be saved in the mentor directory?
-> -   Is there a View More option in the mentor directory?
-> -   How does mentor directory help mentors?
-> -   Does the session details page display the mentor's name and can the users tap it to view the mentor profile?
-<br />
+You can find a list of mentor profiles arranged in alphabetical order in the mentor directory.
 
-1.  Go to **Mentors**. You will find a list of mentor profiles arranged in alphabetical order.
+To view the mentor profile, do any one of the following actions:
 
+* In the Search Bar of the Homepage, select the Mentor Profile tab. Type the mentor’s name, tap Search, and select the mentor profile tile.
 
-2.  Find a mentor. Tap the mentor profile tile to view their profile.
-
-3.  You can also search for mentors in the search bar of your homepage.
-    Tap on the mentor's name to view their profile. \[Is this the
-    correct step?\]
+* Go to Mentors. Find a mentor and tap the mentor profile tile.
 
 
 ### Connecting with Mentors 
@@ -461,22 +452,14 @@ You cannot use the application without creating your profile.
 
 ### Mentor Directory 
 
-> [!COMMENT]
-> -   Will the mentor profile details be saved in the mentor directory?
-> -   What can mentors gain from the mentor directory?
-> -   Does the session details page display the mentor's name and can the users tap it to view the mentor profile?
-<br />
 
-1.  Go to **Mentors**. You will find a list of mentor profiles arranged in alphabetical order.
+You can find a list of mentor profiles arranged in alphabetical order in the mentor directory.
 
-2.  Find a mentor. Tap the mentor profile tile to view their profile.
+To view the mentor profile, do any one of the following actions:
 
-3.  You can also search for mentors in the search bar of your homepage. Tap on the mentor's name to view their
-    profile. 
-    
-> [!COMMENT]
-> Is this the correct step?
-<br />
+*  In the Search Bar of the Homepage, select the Mentor Profile tab. Type the mentor’s name, tap Search, and select the mentor profile tile.
+
+* Go to Mentors. Find a mentor and tap the mentor profile tile.
 
 ### Connecting with Mentors 
 
