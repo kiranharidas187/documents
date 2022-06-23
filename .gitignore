@@ -57,6 +57,7 @@ package-lock.json
 
 
 .env
+src/.env
 
 # Ignore all credentials
 generics/helpers/credentials/*

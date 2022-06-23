@@ -40,32 +40,36 @@
  }
  
 
-//  var Renderer = require('docsify-server-renderer')
-// var readFileSync = require('fs').readFileSync
+ var Renderer = require('docsify-server-renderer')
+var readFileSync = require('fs').readFileSync
 
-// // init
-// var renderer = new Renderer({
-//   template: readFileSync('./docsify/index.html', 'utf-8'),
-//   config: {
-//     name: 'Test',
-//     basePath: '/docsify',
-//     repo: 'te/st',
-//     loaddNavbar: true, 
-//     loadSidebar: true, 
-//     subMaxLevel: 3, 
-//     auto2top: true
-//   }
-// })
-// app.get('/docsify', (req, res) =>{
-//     renderer.renderToString(req.url, (html, err) =>{
-//         if(err) {
-//             console.log("err",err);
-//         } 
+// init
+var renderer = new Renderer({
+  template: readFileSync('./docsify/index.html', 'utf-8'),
+  config: {
+    name: 'Test',
+    basePath: '/docsify',
+    // repo: 'te/st',
+    // loaddNavbar: true, 
+    // loadSidebar: true, 
+    // subMaxLevel: 3, 
+    // auto2top: true
+  }
+})
+app.get('/docsify', (req, res) =>{
+    // renderer.renderToString(req.url, (html, err) =>{
+    //     if(err) {
+    //         console.log("err",err);
+    //     } 
 
-//         res.send(html);
-//         console.log(html)
-//     })
-// })
+    //     // res.send(html);
+    //     console.log(html)
+    // })
+
+    renderer.renderToString(req.url)
+  .then(html => {})
+  .catch(err => {})
+})
 
  /* Registered routes here */
  require('./routes')(app)
