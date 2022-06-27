@@ -1,48 +1,204 @@
 ### Joining a MentorED Session
 
-Participants can attend the mentoring session using the BigBlueButton application.
+Participants can attend mentoring sessions using the BigBlueButton application.
 
-[!NOTE] Participants can only join when the mentor starts the session.
+> [!NOTE] Participants can only join when the mentor starts the session.
 
-1.  On your **Homepage**, select the session and tap **Join**. 
+To join a session, do any one of the following actions:
+
+* On your Homepage, go to **My Sessions**, select the session, and tap **Join**. 
+
+  ![my sessions](media/mysessions-joinbutton.PNG)
+
 
     > [!TIP]
-    > If you see an error, go back to MentorEd and tap **Join**.
+    > If you see an error, go back to MentorED and tap **Join**.
     <br />
 
-#### Setting up BigBlueButton Meeting
+* On your **Homepage**, find the enrolled session from **All Sessions**. Tap the session and tap **Join**.
 
-1.  To connect your audio, tap **Microphone** and tap **Yes**. The BigBlueButton meeting screen appears.
+  ![join session](media/joinsession.png)
 
-2.  To turn on the camera, tap and tap **Start Sharing**. To turn it off, tap and tap **Stop Sharing**.
+#### *Setting up BigBlueButton Meeting*
 
-3.  To download your notes, tap and select the file format.
+1.  To select audio settings, do any one of the following actions:
 
-4.  To leave the meeting, go to and select **Leave Meeting**.
+* To connect your audio, tap **Microphone** and select **Yes**. 
 
-Raise hand
+  > [!NOTE] Microphone may be on initially.
+  </br>
 
-Select random user 
 
-#### Chat ###
+* To join without connecting your audio, tap **Listen Only**.
 
-To chat with the participants, tap and select **Public Chat**.
 
-#### Shared Notes ####
+2. To change your audio settings later, do any one of the following:
 
-To take notes, tap and select **Shared Notes**. A notepad appears.
+* To disconnect your audio, Tap ![audio button](media/audiobutton.png) . Tap  ![audio button turned off](media/audiobutton-off.png)  and tap **Listen Only**.
 
-#### Whiteboard ####
+* To connect your audio, Tap ![listen only button](media/listenonlybutton.png). Tap ![](media/audiobutton-off.png) , tap **Microphone**, and select **Yes**.
 
-#### Polling #### 
 
-#### Joining Breakout Rooms ####
+3.  To turn on the webcam, tap ![webcam off button](media/webcam-off.png) and select **Start Sharing**. To turn it off, tap ![webcam on button](media/webcam-on.png) and select **Stop Sharing**.
+
+    > [!NOTE] The webcam settings window might not appear initially. 
+    > To change your webcam and background settings, tap ![webcam on button](media/webcam-on.png), make changes, and close the window.
+    
+    </br>
+
+    
+
+
+4. To set status, tap ![profile icon](media/bbb-profileicon.png) , tap your name, and select a status.
+
+  
+
+
+5. Tap ![lowered hand button](media/loweredhand.png) to raise hand and tap ![raised hand button](media/raisedhand.png) to lower hand.
+
+6. If the host selects you for answering a question, you can see a popup message on your screen.
+
+7. To download the presented file, tap ![download presentation icon](media/presentedfile-download-icon.png) on the presented file.
+
+
+8.	To leave the call, do any one of the following actions:
+
+* Go to ![menu icon](media/menu-icon.png)  and select **Leave Meeting**.
+
+
+* Press the Back key on your phone.
+
+* Close the meeting tab on your browser.
+
+  > [!NOTE] 
+  > If you leave the call by mistake, go back to MentorED and join the session.
+
+  </br>
+
+> [!NOTE] Host can select partcipants to be Moderator or Presenter. To learn more, see [Managing User Settings](starting-a-session.md). 
+
+</br>
+
+
+> [!TIP] To learn more, see [BigBlueButton Help](https://docs.bigbluebutton.org/support/getting-help.html).
+
+</br>
+    
+
+#### *Meeting settings*
+Users can change the meeting window layout and turn off notifications.
+
+1. Tap ![menu icon](media/menu-icon.png) and select **Settings**. 
+
+2. To change meeting layout, tap the **Application** tab, select **Layout Type**, and tap **Save**.
+
+   > [!NOTE] The changes are visible only on your screen.
+
+
+3.  To turn off audio and popup alerts, tap the **Notifications** tab, turn off notifications, and tap **Save**.
+
+4. To save your bandwidth, tap the **Data Savings** tab, turn off the options, and tap **Save**.
+
+
+> [!TIP] To learn more, see [BigBlueButton Help](https://docs.bigbluebutton.org/support/getting-help.html).
+
+</br>
+
+#### *Shared Notes* ####
+Shared notes allows both host and participants to take notes and share resources.
+
+> [!NOTE]  
+> * ![](media/bbb-profileicon-notification.png) indicates new information shared in the Chat or Shared Notes.
+> * The host may turn off the shared notes for participants or for a select few.
+</br>
+
+To take notes, go to ![profile icon](media/bbb-profileicon.png) and select **Shared Notes**. 
+
+
+> [!TIP] To learn more, see [BigBlueButton Help](https://docs.bigbluebutton.org/support/getting-help.html).
+
+</br>
+
+#### *Chat* #### 
+
+> [!NOTE] 
+> * ![](media/bbb-profileicon-notification.png) indicates new information shared in the Chat or Shared Notes. 
+> * The host may turn off the public and private chat for participants or for a select few.
+</br>
+
+Users can chat with others privately or share queries and information on the Public Chat.
+
+1. To chat with participants, go to ![profile icon](media/bbb-profileicon.png) and select **Public Chat**. 
+
+2. To chat with participants privately, go to ![profile icon](media/bbb-profileicon.png), tap the user, and select **Start a Private Chat**. 
+
+3. To save or copy the messages, tap ![menu icon](media/menu-icon.png) on the chat window and select an option.
+
+> [!TIP] To learn more, see [BigBlueButton Help](https://docs.bigbluebutton.org/support/getting-help.html).
+
+</br>
+
+#### *Whiteboard* ####
+
+Users can add shapes and text to the presentation.
+
+> [!NOTE] The whiteboard appears during the presentation only if the host turns it on for participants or for a select few.
+
+1. To select a textbox or a drawing tool, tap ![text and shapes tool](media/whiteboardtool-text-and-shapes.png).
+
+2. To remove changes, tap ![undo changes tool](media/whiteboardtools-undochange.png).
+
+3. To remove all texts and shapes, tap ![remove changes for all](media/whiteboardtools-deletetool.png).
+
+    > [!NOTE] ![undo changes tool](media/whiteboardtools-undochange.png) and ![remove changes for all](media/whiteboardtools-deletetool.png) removes only your texts and shapes.
+    </br>
+
+4. To turn off your whiteboard, tap ![turn off whiteboard](media/whiteboardtools-turnoff.png).
+
+> [!TIP] To learn more, see [BigBlueButton Help](https://docs.bigbluebutton.org/support/getting-help.html).
+
+</br>
+
+
+#### *Polling* #### 
+Poll allows users to answer a question during a presentation.
+
+You can select an option or type your answer.
+
+> [!TIP] To learn more, see [BigBlueButton Help](https://docs.bigbluebutton.org/support/getting-help.html).
+
+</br>
+
+#### *Joining Breakout Rooms* ####
+Participants can join breakout rooms for group discussions.
+
+To join a breakout room, do any one of the following actions:
+
+* Select **Join Room**. The breakout room opens up in a new tab.
+
+* If the host asks you to select a room, select the room from the dropdown menu and select **Join Room**.
+
+   > [!TIPS] 
+   > * The breakout room opens up in a new tab. You can switch between the two meeting tabs. 
+   > * To leave the Breakout Room, close the Breakout Room tab.
+
+   </br>
+
+> [!TIP] To learn more, see [BigBlueButton Help](https://docs.bigbluebutton.org/support/getting-help.html).
+
+</br>
 
 
 **Best Practices**
 
--   Unmute your microphone only when necessary.
+-   Unmute your [microphone](#setting-up-bigbluebutton-meeting) only when necessary.
 
--   Maintain a neat background and attire before your turn on your webcam. 
+-   Maintain a neat background and attire before your turn on your [webcam](#setting-up-bigbluebutton-meeting). 
 
--   Use respectful language while sharing any information on the chat. Discuss only mentoring-related topics.
+-   Use respectful language while sharing any information on the [chat](#chat) and [shared notes](#shared-notes). Discuss only mentoring-related topics.
+
+- Don't remove any information shared by the host and other participants from the [shared notes](#shared-notes).
+
+- Turn off your [whiteboard](#whiteboard)  unless the host asks particpants to use it. 
+
+
