@@ -28,8 +28,8 @@ To join a session, do any one of the following actions:
 </br>
 
 > [!TIP] 
-> * To know more about enrolling for a session and cancelling your enrollment see [Enrolling for a Session](enrolling-for-a-session.md). 
-> * To know more about joining a BigBlueButton meeting see [Setting up a BigBlueButton Meeting](joining-a-session.md).
+> * To know more about enrolling for a session and cancelling your enrollment, see [Enrolling for a Session](enrolling-for-a-session.md). 
+> * To know more about joining a BigBlueButton meeting, see [Setting up a BigBlueButton Meeting](joining-a-session.md).
 
 
   

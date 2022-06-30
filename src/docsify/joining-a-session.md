@@ -2,7 +2,10 @@
 
 Participants can attend mentoring sessions using the BigBlueButton application.
 
-> [!NOTE] Participants can only join when the mentor starts the session.
+> [!NOTE] 
+> * Participants are allowed to join the session 15 minutes before the start time.
+> * Participants can only join when the mentor starts the session.
+> * Participants can join the session after the scheduled time.
 
 To join a session, do any one of the following actions:
 

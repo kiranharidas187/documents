@@ -1,6 +1,6 @@
 ### Creating and Managing a Profile
 
-Users can update their profile details. Mentor profiles are saved in the mentor directory.
+Users can update their profile details. Mentor profiles are saved in the [Mentor Directory](mentor-directory.md).
 
 > [!NOTE] You cannot use the application without updating your profile. 
 
