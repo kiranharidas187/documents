@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/docusaurus/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+//  favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -36,9 +36,10 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+//          editUrl:
+//            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
+/*        
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -46,6 +47,7 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
+*/        
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -66,35 +68,39 @@ const config = {
         },
       },
       navbar: {
-        title: 'My Site',
+ //       title: 'Elevate',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Elevate Logo',
+          src: 'img/elevate-logo.png',
         },
         items: [
-          {
+
+        {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'MentorED',
+            logo: 'img/mentoring-logo.png',
           },
+/*          
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
           },
+*/          
         ],
       },
-      footer: {
+/*      footer: {
         style: 'dark',
         links: [
           {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'MentorED Documentation',
+                to: '/docs/overview',
               },
             ],
           },
@@ -135,7 +141,9 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+*/      
     }),
+    
 };
 
 module.exports = config;
