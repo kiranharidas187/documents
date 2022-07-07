@@ -14,11 +14,15 @@ Users can sign up for mentoring sessions.
 
   ![](media/search-sessions.jpg)
 
-2.  To cancel your enrollment, tap **Cancel**. You can also go to **My Sessions** on your Homepage  , tap the session, and tap **Cancel**.
+2.  To cancel your enrollment, tap **Cancel**. You can also go to **My Sessions** on your Homepage, tap the session, and tap **Cancel**.
 
-    > [!NOTE] You cannot cancel the session 10 minutes before the scheduled time.
+    >:::note You cannot cancel the session 10 minutes before the scheduled time.
 
     ![](media/mysessions.PNG)
+    
 
+    <div class="screenshot">
 
     ![](media/cancel-enrollment.png)
+     
+    </div>

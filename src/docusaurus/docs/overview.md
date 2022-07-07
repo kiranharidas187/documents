@@ -3,7 +3,7 @@
 
 
 To start using the MentorED mobile application
-1. Download and install the MentorED application from Google Play store:
+1. Download and install the MentorED application from Google Play store or App Store.
 2. After successful installation, run the mobile application. The MentorED splash screen appears: 
 
    <div class="screenshot">

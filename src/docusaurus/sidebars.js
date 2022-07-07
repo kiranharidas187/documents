@@ -165,7 +165,7 @@ const sidebars = {
                   {
                     type: 'doc',
                     id: 'setting-up-a-mentored-session', // document ID
-                    label: 'Setting up a Mentored Session', // sidebar label
+                    label: 'Setting up a MentorED Session', // sidebar label
                   },
                   {
                     type: 'doc',
@@ -176,6 +176,11 @@ const sidebars = {
                     type: 'doc',
                     id: 'starting-a-session', // document ID
                     label: 'Starting a Mentoring Session', // sidebar label
+                  },
+                  {
+                    type: 'doc',
+                    id: 'dashboard-for-mentors', // document ID
+                    label: 'Dashboard for Mentors', // sidebar label
                   },
                   {
                     type: 'doc',
@@ -212,7 +217,7 @@ const sidebars = {
                   {
                     type: 'doc',
                     id: 'enrolling-for-a-session', // document ID
-                    label: 'Enrolling for a Mentored Session', // sidebar label
+                    label: 'Enrolling for a MentorED Session', // sidebar label
                   },
                   {
                     type: 'doc',
@@ -223,6 +228,16 @@ const sidebars = {
                     type: 'doc',
                     id: 'joining-a-session', // document ID
                     label: 'Joining a Mentoring Session', // sidebar label
+                  },
+                  {
+                    type: 'doc',
+                    id: 'joining-sessions-using-a-shared-link', // document ID
+                    label: 'Joining Sessions through a Shared Link', // sidebar label
+                  },
+                  {
+                    type: 'doc',
+                    id: 'dashboard-for-mentees', // document ID
+                    label: 'Dashboard for Mentees', // sidebar label
                   },
                   {
                     type: 'doc',

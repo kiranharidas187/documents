@@ -7,6 +7,6 @@ The host receives a feedback form.
 
    <div class="screenshot">
 
-    ![Feedback](media/host-feedback-form.PNG) 
+   ![Feedback](media/host-feedback-form.PNG) 
 
    </div>

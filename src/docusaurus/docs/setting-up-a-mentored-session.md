@@ -35,6 +35,14 @@ Mentors can create and manage mentoring sessions.
     
     </div>
 
+7. To delete your completed sessions, select the **Past** tab, select the session, and tap **Delete**.
+
+    <div class="img_callout">
+
+    ![edit or delete session](media/delete-pastsessions.PNG)
+    
+    </div>
+
 
 
 

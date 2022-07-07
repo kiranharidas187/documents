@@ -30,6 +30,7 @@ The BigBlueButton application helps mentors to conduct mentoring sessions.
     * Tap on the session link which was shared to your contacts or on social media. Tap **Start Session**.
 
 
+
 ## Setting up BigBlueButton Meeting
 
 BigBlueButton window opens up in your web browser.
@@ -78,8 +79,6 @@ BigBlueButton window opens up in your web browser.
     
 7.  To end the meeting, go to ![menu icon](media/menu-icon.png) and select **End Meeting**.
 
->:::tip 
->To learn more, see [BigBlueButton Help](https://docs.bigbluebutton.org/support/getting-help.html).
 
 
 ## Shared Notes 
@@ -100,8 +99,7 @@ Shared notes allows both host and participants to take notes and share resources
    > :::tip 
    > To allow only selected participants to use the shared notes, go to ![profile icon](media/bbb-profileicon.png), tap the user, and select unlock.
 
-> :::note 
-> To learn more, see [BigBlueButton Help](https://docs.bigbluebutton.org/support/getting-help.html).
+
 
 ## Chat
 
@@ -123,14 +121,11 @@ Users can chat with others privately or share queries and information on the Pub
    > :::tip 
    > To allow only selected participants to use the Chat, go to ![profile icon](media/bbb-profileicon.png), tap the user, and select unlock.
 
-:::note
-To learn more, see [BigBlueButton Help](https://docs.bigbluebutton.org/support/getting-help.html).
-
-      
+     
 
 ## Managing Users on BigBlueButton
 
-The Host can allow participants to be the Moderator or Presenter.
+The host can allow participants to be the Moderator or Presenter.
 
 > :::note  
 > The meeting host is a moderator and presenter.
@@ -152,11 +147,10 @@ The Host can allow participants to be the Moderator or Presenter.
 3. To make the user a presenter, go to ![profile icon](media/bbb-profileicon.png), tap the user, and select **Make Presenter**.
 
    > :::note  
-   > * Presenter can [present files](#presenting-a-file), [start a poll](#starting-a-poll), [select a random user](#selecting-a-random-user), and use the [whiteboard](#whiteboard). 
+   > * Presenter can present a file, start a poll, select a random user, and use the whiteboard. 
    > * Only one user can be a presenter.
 
    
-
 4. To change presenter back to a participant, go to ![profile icon](media/bbb-profileicon.png), tap your name, and select **Take Presenter**.
 
 5. To change user settings, go to ![profile icon](media/bbb-profileicon.png), and tap ![managing users](media/managingusers-icon.png). The user settings include:
@@ -167,7 +161,7 @@ The Host can allow participants to be the Moderator or Presenter.
    * Guest Policy: to restrict or deny participants from joining the call
    * Save User Names: to download user list
    * Clear All Status Icons: to clear user status
-   * [Create Breakout Rooms](#creating-breakout-rooms): to divide participants into groups 
+   * Create Breakout Rooms: to divide participants into groups 
    * Write Closed Captions: to turn on captions
    * Learning Analytics Dashboard: to open a dowloadable file that includes session duration and user activity.
 
@@ -177,10 +171,6 @@ The Host can allow participants to be the Moderator or Presenter.
    * Clear Status: to clear user status
    * [Give Whiteboard Access](#whiteboard): to allow a user to use the whiteboard
    * Remove User: to remove a user from the session
-
-
-> :::note 
-To learn more, see [BigBlueButton Help](https://docs.bigbluebutton.org/support/getting-help.html).
 
 
 
@@ -199,9 +189,6 @@ Users can change the meeting window layout and turn off the notifications.
 
 4. To save your bandwidth, tap the **Data Savings** tab, turn off the options, and tap **Save**.
 
-
-:::note
-To learn more, see [BigBlueButton Help](https://docs.bigbluebutton.org/support/getting-help.html).
 
 ## Presenting a File
 
@@ -239,8 +226,6 @@ Users can upload and present files (images, documents, and videos) during the se
 
 9. To stop presenting video, tap ![upload presentation icon](media/uploadpresentation-icon.png) and select **Stop Sharing External Video**.
    
->:::note 
->To learn more, see [BigBlueButton Help](https://docs.bigbluebutton.org/support/getting-help.html).
 
 
 ## Whiteboard
@@ -266,8 +251,6 @@ Users can add shapes and text to the presentation.
    > :::tip 
    > To turn on the Whiteboard for selected users, go to ![profile icon](media/bbb-profileicon.png), tap the user's name, and select **Give Whiteboard access**.
 
->:::note 
->To learn more, see [BigBlueButton Help](https://docs.bigbluebutton.org/support/getting-help.html).
 
 
 ## Starting a Poll
@@ -275,7 +258,7 @@ Users can add shapes and text to the presentation.
 Poll allows users to answer a question.
 
 > :::note  
-> You can start a poll only after [presenting a file](#presenting-a-file).
+> You can start a poll only after presenting a file.
 
 1. To start a poll, tap ![upload presentation icon](media/uploadpresentation-icon.png) and select **Start a Poll**.
 
@@ -288,8 +271,6 @@ Poll allows users to answer a question.
    
 3. To present the poll results, tap **Publish Poll**.
 
-> :::note
-> To learn more, see [BigBlueButton Help](https://docs.bigbluebutton.org/support/getting-help.html).
 
 
 ## Selecting a Random User
@@ -297,9 +278,6 @@ Poll allows users to answer a question.
 The host can select a participant to answer a question.
 
 To select a random user, tap ![upload presentation](media/uploadpresentation-icon.png) and tap **Select Random User**.
-
->:::note
->To learn more, see [BigBlueButton Help](https://docs.bigbluebutton.org/support/getting-help.html).
 
 
 ## Creating Breakout Rooms 
@@ -312,17 +290,17 @@ The host can divide particpants into groups.
 
 3. Select the number of rooms and duration. Tap **Next**. 
 
-> :::tip 
-> If you select <b>Allow Users to Choose a Breakout Room to Join</b>, tap <b>Create</b> to create breakout rooms.
+   > :::tip 
+   > If you select <b>Allow Users to Choose a Breakout Room to Join</b>, tap <b>Create</b> to create breakout rooms.
 
 
 4. To add particpants to a breakout room, tap **Add Participant** and tap **Create**.
 
 3. To join a Breakout Room, go to <div class="inlineImg">![manage users icon](media/managingusers-icon.png)</div> and tap **Breakout Rooms**. Select a room and tap **Ask to Join**.
 
-  > :::tip 
-  > * The Breakout Room opens up in a new tab. You can switch between the two meeting tabs.
-  > * To leave the Breakout Room, close the Breakout Room tab.
+   > :::tip 
+   > * The Breakout Room opens up in a new tab. You can switch between the two meeting tabs.
+   > * To leave the Breakout Room, close the Breakout Room tab.
 
 >:::note
->To learn more, see [BigBlueButton Help](https://docs.bigbluebutton.org/support/getting-help.html).
+>To learn more, see [BigBlueButton Help](https://docs.bigbluebutton.org/).

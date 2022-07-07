@@ -19,7 +19,7 @@ To view the mentor profile, do any one of the following actions:
 
     </div>
     
- * The Mentor profile page appears:
+* The Mentor profile page appears:
 
     <div class="img_callout">
 

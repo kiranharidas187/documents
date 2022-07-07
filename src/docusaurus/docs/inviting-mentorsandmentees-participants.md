@@ -5,7 +5,11 @@ You can invite more participants to a session by sharing a session link.
 
 * On your Homepage, go to **All Sessions**, select an upcoming session, and tap ![](media/share-icon.png).
 
+   <div class="screenshot">
+
    ![](media/sharesession.png)
+
+   </div>
 
 * On your Homepage, go to **My Sessions**, select an enrolled session, and tap ![](media/share-icon.png).
 
