@@ -2,7 +2,7 @@
 
 Mentors can create and manage mentoring sessions.
 
-1.  Go to ![burger menu](media/burgermenu-icon.png) and select **Created by Me**.
+1.  Go to the Burger Menu <div class="inlineImg">![burger menu](media/burgermenu-icon.png) and select **Created by Me**.
 
 2.  Select **+ Create New Session**.
 
@@ -37,7 +37,7 @@ Mentors can create and manage mentoring sessions.
 
 7. To delete your completed sessions, select the **Past** tab, select the session, and tap **Delete**.
 
-    <div class="img_callout">
+    <div class="screenshot">
 
     ![edit or delete session](media/delete-pastsessions.PNG)
     

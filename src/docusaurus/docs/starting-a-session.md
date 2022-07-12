@@ -7,11 +7,14 @@ The BigBlueButton application helps mentors to conduct mentoring sessions.
 >* Mentors can start their session after the scheduled time.
 
 
-1.  Go to ![burger menu icon](media/burgermenu-icon.png) and tap **Created by Me**.
+1.  Go to the Burger Menu ![burger menu icon](media/burgermenu-icon.png) and tap **Created by Me**.
 
 2.  To start your session, do any one of the following actions:
 
     * Find the session and tap **Start**.
+      >:::tip 
+      >If you face an error, go back to MentorED and tap **Start**.
+      :::
 
       <div class="screenshot">
 
@@ -30,10 +33,9 @@ The BigBlueButton application helps mentors to conduct mentoring sessions.
     * Tap on the session link which was shared to your contacts or on social media. Tap **Start Session**.
 
 
-
 ## Setting up BigBlueButton Meeting
 
-BigBlueButton window opens up in your web browser.
+BigBlueButton window opens up on your web browser.
 
 1.  To select audio settings, do any one of the following actions:
 
@@ -68,14 +70,15 @@ BigBlueButton window opens up in your web browser.
    > :::tip 
    > To view and clear participant's status, see [Managing Users on BigBlueButton](#managing-users-on-bigbluebutton).
 
-6.	To leave the call, do any one of the following actions:
+6.	To leave the call, go to ![menu icon](media/menu-icon.png)  and select **Leave Meeting**.
+    
+    > :::note  
+    > * If you press the back key on your phone or close the meeting tab, you will drop off the call.
+    > * If you leave the call by mistake, go back to MentorED and join the session. 
 
-    * Go to ![menu icon](media/menu-icon.png)  and select **Leave Meeting**.
-    * Press the Back key on your phone.
-    * Close the meeting tab on your browser.
-
-> :::note  
-> If you leave the call by mistake, go back to MentorED and start the session.
+    :::
+    >:::caution 
+    >After the end time, you cannot rejoin the session if you leave the call.
     
 7.  To end the meeting, go to ![menu icon](media/menu-icon.png) and select **End Meeting**.
 
@@ -141,7 +144,7 @@ The host can allow participants to be the Moderator or Presenter.
 
    
 
-2. To change moderator back to a participant,  go to ![profile icon](media/bbb-profileicon.png), tap the user, and select **Demote to Viewer**.
+2. To change the moderator back to a participant,  go to ![profile icon](media/bbb-profileicon.png), tap the user, and select **Demote to Viewer**.
 
 
 3. To make the user a presenter, go to ![profile icon](media/bbb-profileicon.png), tap the user, and select **Make Presenter**.
@@ -151,7 +154,7 @@ The host can allow participants to be the Moderator or Presenter.
    > * Only one user can be a presenter.
 
    
-4. To change presenter back to a participant, go to ![profile icon](media/bbb-profileicon.png), tap your name, and select **Take Presenter**.
+4. To change the presenter back to a participant, go to ![profile icon](media/bbb-profileicon.png), tap your name, and select **Take Presenter**.
 
 5. To change user settings, go to ![profile icon](media/bbb-profileicon.png), and tap ![managing users](media/managingusers-icon.png). The user settings include:
 
@@ -163,7 +166,7 @@ The host can allow participants to be the Moderator or Presenter.
    * Clear All Status Icons: to clear user status
    * Create Breakout Rooms: to divide participants into groups 
    * Write Closed Captions: to turn on captions
-   * Learning Analytics Dashboard: to open a dowloadable file that includes session duration and user activity.
+   * Learning Analytics Dashboard: to open a downloadable file that includes session duration and user activity.
 
 6. To change settings for selected users, go to ![profile icon](media/bbb-profileicon.png), and tap the user's name. The user settings include:
 
@@ -188,7 +191,8 @@ Users can change the meeting window layout and turn off the notifications.
 
 
 4. To save your bandwidth, tap the **Data Savings** tab, turn off the options, and tap **Save**.
-
+   >:::tip 
+   >![internet strength icon](media/internetstrength-icon.png) indicates the strength of your internet connection.
 
 ## Presenting a File
 
@@ -242,7 +246,7 @@ Users can add shapes and text to the presentation.
 3. To remove all texts and shapes, tap ![remove changes for all](media/whiteboardtools-deletetool.png).
 
     > :::note  
-    > This tool removes texts and shapes added by host and participants.
+    > This tool removes texts and shapes added by the host and participants.
 
 4. To turn off your whiteboard, tap ![turn off whiteboard](media/whiteboardtools-turnoff.png).
 
@@ -282,7 +286,7 @@ To select a random user, tap ![upload presentation](media/uploadpresentation-ico
 
 ## Creating Breakout Rooms 
 
-The host can divide particpants into groups.
+The host can divide participants into groups.
 
 1. Go to ![profile icon](media/bbb-profileicon.png) and tap ![manage users icon](media/managingusers-icon.png).
 
@@ -302,5 +306,5 @@ The host can divide particpants into groups.
    > * The Breakout Room opens up in a new tab. You can switch between the two meeting tabs.
    > * To leave the Breakout Room, close the Breakout Room tab.
 
->:::note
+>:::info 
 >To learn more, see [BigBlueButton Help](https://docs.bigbluebutton.org/).

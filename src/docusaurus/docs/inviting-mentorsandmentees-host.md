@@ -1,7 +1,7 @@
 # Inviting Mentors and Mentees
 You can invite more participants to a session by sharing a session link.
 
-1. Go to ![](media/burgermenu-icon.png) and select **Created by Me**.
+1. Go to the Burger Menu <div class="inlineImg">![](media/burgermenu-icon.png) and select **Created by Me**.
 
 2. Select the **Upcoming** tab.
 
@@ -11,5 +11,6 @@ You can invite more participants to a session by sharing a session link.
 
    ![](media/sharesession.png)
    
-    </div>
+   </div>
+   
 4. Share the session link with your contacts or on social media.

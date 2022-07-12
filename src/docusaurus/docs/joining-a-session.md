@@ -9,21 +9,29 @@ Participants can attend mentoring sessions using the BigBlueButton application.
 
 To join a session, do any one of the following actions:
 
-* On your Homepage, go to **My Sessions**, select the session, and tap **Join**. 
+* On your Homepage, go to **My Sessions**, select the session, and tap **Join**.
+
+  <div class="img_callout">
 
   ![](media/mysessions-joinbutton.PNG)
 
-
+  </div>
+  
   >:::tip 
-  >If you encounter an error, go back to MentorED and tap **Join**.
+  >If you face an error, go back to MentorED and tap **Join**.
     
 * On your **Homepage**, find the enrolled session from **All Sessions**. Tap the session and tap **Join**.
+  
+  <div class="screenshot">
 
   ![](media/joinsession.png)
 
-##  Setting up BigBlueButton Meeting
+  </div>
 
-1.  To select audio settings, do any one of the following actions:
+##  Setting up BigBlueButton Meeting
+BigBlueButton window opens up on your web browser.
+
+1.  To select the audio settings, do any one of the following actions:
 
     * To connect your audio, tap **Microphone** and select **Yes**. 
 
@@ -54,19 +62,15 @@ To join a session, do any one of the following actions:
 7. To download the presented file, tap ![](media/presentedfile-download-icon.png) on the presented file.
 
 
-8.	To leave the call, do any one of the following actions:
+8.	To leave the call, go to ![](media/menu-icon.png)  and select **Leave Meeting**.
 
-    * Go to ![](media/menu-icon.png)  and select **Leave Meeting**.
-
-    * Press the Back key on your phone.
-
-    * Close the meeting tab on your browser.
 
     > :::note  
-    > If you leave the call by mistake, go back to MentorED and join the session.
+    > * If you press the back key on your phone or close the meeting tab, you may drop off the call.
+    > * If you leave the call by mistake, go back to MentorED and join the session.
   
-  > :::note  
-  Host can select participants to be a Moderator or Presenter. To learn more, see [Managing User Settings](starting-a-session.md). 
+  > :::info 
+  > Host can select participants to be a Moderator or Presenter. To learn more, see [Managing User Settings](starting-a-session.md). 
 
    
 
@@ -84,7 +88,8 @@ Users can change the meeting window layout and turn off notifications.
 3.  To turn off audio and popup alerts, tap the **Notifications** tab, turn off notifications, and tap **Save**.
 
 4. To save your bandwidth, tap the **Data Savings** tab, turn off the options, and tap **Save**.
-
+   >:::tip 
+   >![internet strength icon](media/internetstrength-icon.png) indicates the strength of your internet connection.
 
 ## Shared Notes 
 Shared notes allows both host and participants to take notes and share resources.
@@ -164,13 +169,13 @@ To join a breakout room, do any one of the following actions:
 
 -   Unmute your [microphone](#setting-up-bigbluebutton-meeting) only when necessary.
 
--   Maintain a neat background and attire before your turn on your [background](#setting-up-bigbluebutton-meeting). 
+-   Maintain a neat background and attire before your turn on your [webcam](#setting-up-bigbluebutton-meeting). 
 
 -   Use respectful language while sharing any information on the [chat](#chat) and [shared notes](#shared-notes). Discuss only mentoring-related topics.
 
 - Don't remove any information shared by the host and other participants from the [shared notes](#shared-notes).
 
-- Turn off your [whiteboard](#whiteboard)  unless the host asks particpants to use it. 
+- Turn off your [whiteboard](#whiteboard)  unless the host asks participants to use it. 
 
->:::note
+>:::info
 >To learn more, see [BigBlueButton Help](https://docs.bigbluebutton.org/).

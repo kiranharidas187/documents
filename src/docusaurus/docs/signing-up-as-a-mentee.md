@@ -31,4 +31,4 @@ First-time users should create an account on MentorED.
     ![homepage](media/homepage.PNG)
     
     </div>
-8.  To log out, go to ![burger menu icon](media/burgermenu-icon.png) and tap **Logout**.
+8.  To log out, go to the Burger Menu <div class="inlineImg"> ![burger menu icon](media/burgermenu-icon.png) and tap **Logout**.
