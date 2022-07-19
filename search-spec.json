@@ -1,0 +1,250 @@
+JOBS - 
+
+{
+    "context": {
+        "domain": "jobs",
+        "country": "IND",
+        "city": "std:080",
+        "action": "search",
+        "core_version": "1.0.0-draft",
+        "bap_id": "https://exampleapp.io/",
+        "bap_uri": "https://api.exampleapp.io/uhi/v0/",
+        "message_id": "5ac3dd78-829e-4c7d-9139-a15adbb582cc",
+        "timestamp": "2021-03-23T10:00:40.065Z"
+    },
+    "message": {
+        "intent": {
+            "provider": {
+                "descriptor": {
+                    "name" : "Namma Metro"
+                },
+                "rating" : ">4"
+            },
+            "item" : {
+                "descriptor" : {
+                    "name" : "Metal and Wood Worker"
+                }
+            },
+            "category" : {
+                "descriptor" : {
+                    "name" : "Manufacturing"
+                }
+            },
+            "fulfillment": {
+                "type" : "part-time",
+                "start": {
+                    "time": {
+                        "timestamp": "2021-03-23"
+                    },
+                    "location" : {
+                        "city" : "std:080"
+                    }
+                },
+                "customer" : {
+                    "person" : {
+                        "skills" : [
+                            {
+                                "descriptor" : {
+                                    "name" : "Lathe",
+                                    "short_desc" : "I have experience Machining using CNC and Lathe",
+                                    "video" : "https://youtube.com/john-doe/9328kjed29382"
+                                }
+                            },
+                            {
+                                "descriptor" : {
+                                    "name" : "Carpentry",
+                                    "short_desc" : "I have experience with carpentry",
+                                    "video" : "https://youtube.com/john-doe/ksji83oil23"
+                                }
+                            }
+                        ],
+                        "experience" : "12Y"
+                    }
+                }
+            },
+            "payment" : {
+                "params" : {
+                    "amount" : "20000",
+                    "currency" : "INR/month"
+                }
+            }
+        }
+    }
+ }
+
+ 
+Mentoring - 
+
+ {
+    "context": {
+        "domain": "mentoring",
+        "country": "IND",
+        "city": "std:080",
+        "action": "search",
+        "core_version": "0.9.3",
+        "bap_id": "exampleapp.io",
+        "bap_uri": "https://api.exampleapp.io/dsep/v0/",
+        "message_id": "5ac3dd78-829e-4c7d-9139-a15adbb582cc",
+        "timestamp": "2021-03-23T10:00:40.065Z"
+    },
+    "message": {
+        "intent": {
+            "item" : {
+                "descriptor" : {
+                    "name" : "10th Std Mathematics" // Session name goes here if user is directly searching sessions
+                }
+            },
+            "descriptor" : {
+                "name" : "10th Std Mathematics" // Raw user search query - E.g. mentor name or session name
+            },
+            "fulfillment" : {
+                "type" : "ONLINE"
+            },
+            "provider" : {
+                "location" : [
+                    {
+                        "gps" : "22.394834,77.9822309"
+                    }
+                ]
+            }
+        }
+    }
+ }
+
+
+
+Search for Session - 
+"intent": {
+    "item" : {
+        "descriptor" : {
+            "name" : "10th Std Mathematics" // Session name goes here if user is directly searching sessions
+        }
+    },
+    "descriptor" : {
+        "name" : "10th Std Mathematics" // Raw user search query - E.g. mentor name or session name
+    }
+}
+
+
+
+Search for Mentor - 
+
+"intent": {
+    "descriptor" : {
+        "name" : "Pramod Verma" // Raw user search query - E.g. mentor name
+    },
+    "fulfillment" : {
+        "agent" : {
+            "name" : "Pramod Verma" // Raw user search query - E.g. mentor name
+        }
+    }
+}
+
+
+
+Search for Session from a particular organisation - 
+"intent": {
+    "item" : {
+        "descriptor" : {
+            "name" : "10th Std Mathematics" // Session name goes here if user is directly searching sessions
+        }
+    },
+    "descriptor" : {
+        "name" : "10th Std Mathematics" // Raw user search query - E.g. mentor name or session name
+    },
+    "provider" : {
+        "descriptor": {
+            "name" : "NCTE or CBSE" // Organisation which is publishing the session
+        },
+        "rating" : ">4"
+    }
+}
+
+
+
+Search for Session for a particular duration -
+
+"intent": {
+    "item" : {
+        "descriptor" : {
+            "name" : "10th Std Mathematics" // Session name goes here if user is directly searching sessions
+        },
+        "time" : {
+            "duration" : "1 hour" // String value for time duration
+        }
+    },
+    "descriptor" : {
+        "name" : "10th Std Mathematics" // Raw user search query - E.g. mentor name or session name
+    },
+    "provider" : {
+        "descriptor": {
+            "name" : "NCTE or CBSE" // Organisation which is publishing the session
+        },
+        "rating" : ">4"
+    }
+}
+
+Search for Session from a particular start date and end date in case of offline - 
+
+
+"intent": {
+    "item" : {
+        "descriptor" : {
+            "name" : "10th Std Mathematics" // Session name goes here if user is directly searching sessions
+        },
+        "time" : {
+            "duration" : "1 hour", // String value for time duration
+            "range" : {
+                "start" : "2022-07-21T09:35:31.820Z", // Session start date and time
+                "end" : "2022-07-21T10:35:31.820Z" // Session end date and time
+            }
+        }
+    },
+    "descriptor" : {
+        "name" : "10th Std Mathematics" // Raw user search query - E.g. mentor name or session name
+    },
+    "provider" : {
+        "descriptor": {
+            "name" : "NCTE or CBSE" // Organisation which is publishing the session
+        },
+        "rating" : ">4"
+    },
+    "fulfillment": {
+        "type" : "online/offline", // Whether or not session is conducted online or offline.
+    }
+}
+
+
+
+Search for Session from based on if its synchronous or asynchronous - 
+
+
+"intent": {
+    "item" : {
+        "descriptor" : {
+            "name" : "10th Std Mathematics" // Session name goes here if user is directly searching sessions
+        },
+        "time" : {
+            "duration" : "1 hour", // String value for time duration
+            "range" : {
+                "start" : "2022-07-21T09:35:31.820Z", // Session start date and time
+                "end" : "2022-07-21T10:35:31.820Z" // Session end date and time
+            }
+        }
+    },
+    "descriptor" : {
+        "name" : "10th Std Mathematics" // Raw user search query - E.g. mentor name or session name
+    },
+    "provider" : {
+        "descriptor": {
+            "name" : "NCTE or CBSE" // Organisation which is publishing the session
+        },
+        "rating" : ">4"
+    },
+    "fulfillment": {
+        "type" : "online/offline", // Whether or not session is conducted online or offline.
+        "tags" : {
+            "mode" : "synchronous/asynchronous" // Live sessions are synchronous everything else is asynchronous.
+        }
+    }
+}
