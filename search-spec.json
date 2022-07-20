@@ -114,6 +114,7 @@ Mentoring -
 
 
 Search for Session - 
+
 "intent": {
     "item" : {
         "descriptor" : {
@@ -170,7 +171,7 @@ Search for Session for a particular duration -
             "name" : "10th Std Mathematics" // Session name goes here if user is directly searching sessions
         },
         "time" : {
-            "duration" : "1 hour" // String value for time duration
+            "duration" : "P1H" // String value for time duration
         }
     },
     "descriptor" : {
@@ -193,7 +194,7 @@ Search for Session from a particular start date and end date in case of offline 
             "name" : "10th Std Mathematics" // Session name goes here if user is directly searching sessions
         },
         "time" : {
-            "duration" : "1 hour", // String value for time duration
+            "duration" : "P1H", // String value for time duration
             "range" : {
                 "start" : "2022-07-21T09:35:31.820Z", // Session start date and time
                 "end" : "2022-07-21T10:35:31.820Z" // Session end date and time
@@ -225,7 +226,7 @@ Search for Session from based on if its synchronous or asynchronous -
             "name" : "10th Std Mathematics" // Session name goes here if user is directly searching sessions
         },
         "time" : {
-            "duration" : "1 hour", // String value for time duration
+            "duration" : "P1H", // String value for time duration
             "range" : {
                 "start" : "2022-07-21T09:35:31.820Z", // Session start date and time
                 "end" : "2022-07-21T10:35:31.820Z" // Session end date and time
@@ -245,6 +246,88 @@ Search for Session from based on if its synchronous or asynchronous -
         "type" : "online/offline", // Whether or not session is conducted online or offline.
         "tags" : {
             "mode" : "synchronous/asynchronous" // Live sessions are synchronous everything else is asynchronous.
+        }
+    }
+}
+
+
+
+
+
+Search for Session whether there will be a certificate issued at the end of the session/course - 
+
+"intent": {
+    "item" : {
+        "descriptor" : {
+            "name" : "10th Std Mathematics" // Session name goes here if user is directly searching sessions
+        },
+        "time" : {
+            "duration" : "P1H", // String value for time duration
+            "range" : {
+                "start" : "2022-07-21T09:35:31.820Z", // Session start date and time
+                "end" : "2022-07-21T10:35:31.820Z" // Session end date and time
+            }
+        },
+        "tags" : {
+            "certificateAttached" : true
+        }
+    },
+    "descriptor" : {
+        "name" : "10th Std Mathematics" // Raw user search query - E.g. mentor name or session name
+    },
+    "provider" : {
+        "descriptor": {
+            "name" : "NCTE or CBSE" // Organisation which is publishing the session
+        },
+        "rating" : ">4"
+    },
+    "fulfillment": {
+        "type" : "online/offline", // Whether or not session is conducted online or offline.
+        "tags" : {
+            "mode" : "synchronous/asynchronous" // Live sessions are synchronous everything else is asynchronous.
+        }
+    }
+}
+
+
+Search for Session based on Mentor rating - 
+
+
+"intent": {
+    "item" : {
+        "descriptor" : {
+            "name" : "10th Std Mathematics" // Session name goes here if user is directly searching sessions
+        },
+        "time" : {
+            "duration" : "P1H", // String value for time duration
+            "range" : {
+                "start" : "2022-07-21T09:35:31.820Z", // Session start date and time
+                "end" : "2022-07-21T10:35:31.820Z" // Session end date and time
+            }
+        },
+        "tags" : {
+            "certificateAttached" : true
+        }
+    },
+    "descriptor" : {
+        "name" : "10th Std Mathematics" // Raw user search query - E.g. mentor name or session name
+    },
+    "provider" : {
+        "descriptor": {
+            "name" : "NCTE or CBSE" // Organisation which is publishing the session
+        },
+        "rating" : ">4"
+    },
+    "fulfillment": {
+        "type" : "online/offline", // Whether or not session is conducted online or offline.
+        "tags" : {
+            "mode" : "synchronous/asynchronous" // Live sessions are synchronous everything else is asynchronous.
+        },
+        "agent" {
+            "name" : "Pramod Verma", // Raw user search query - E.g. mentor name
+            "tags" : {
+                "rating" : "4" // Mentor Rating will come here
+            }
         }
     }
 }
