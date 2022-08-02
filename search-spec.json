@@ -331,3 +331,167 @@ Search for Session based on Mentor rating -
         }
     }
 }
+
+
+
+Search for Session which are Free (How do we put a filter of paid ? And if need be specify session price range.) - 
+
+
+"intent": {
+    "item" : {
+        "descriptor" : {
+            "name" : "10th Std Mathematics" // Session name goes here if user is directly searching sessions
+        },
+        "time" : {
+            "duration" : "P1H", // String value for time duration
+            "range" : {
+                "start" : "2022-07-21T09:35:31.820Z", // Session start date and time
+                "end" : "2022-07-21T10:35:31.820Z" // Session end date and time
+            }
+        },
+        "tags" : {
+            "certificateAttached" : true
+        },
+        "price" : {
+            "value" : "0" // How do we put a filter of paid ? And if need be specify session price range.
+        }
+    },
+    "descriptor" : {
+        "name" : "10th Std Mathematics" // Raw user search query - E.g. mentor name or session name
+    },
+    "provider" : {
+        "descriptor": {
+            "name" : "NCTE or CBSE" // Organisation which is publishing the session
+        },
+        "rating" : ">4"
+    },
+    "fulfillment": {
+        "type" : "online/offline", // Whether or not session is conducted online or offline.
+        "tags" : {
+            "mode" : "synchronous/asynchronous" // Live sessions are synchronous everything else is asynchronous.
+        },
+        "agent" {
+            "name" : "Pramod Verma", // Raw user search query - E.g. mentor name
+            "tags" : {
+                "rating" : "4" // Mentor Rating will come here
+            }
+        }
+    }
+}
+
+
+
+
+Search for Session based on language (Should there be a key in the core spec for language at item level) - 
+
+
+"intent": {
+    "item" : {
+        "descriptor" : {
+            "name" : "10th Std Mathematics" // Session name goes here if user is directly searching sessions
+        },
+        "time" : {
+            "duration" : "P1H", // String value for time duration
+            "range" : {
+                "start" : "2022-07-21T09:35:31.820Z", // Session start date and time
+                "end" : "2022-07-21T10:35:31.820Z" // Session end date and time
+            }
+        },
+        "tags" : {
+            "certificateAttached" : true,
+            "language" : [ // User can pass multiple language codes.
+                "en",
+                "hi"
+            ]
+        },
+        "price" : {
+            "value" : "0" // How do we put a filter of paid ? And if need be specify session price range.
+        }
+    },
+    "descriptor" : {
+        "name" : "10th Std Mathematics" // Raw user search query - E.g. mentor name or session name
+    },
+    "provider" : {
+        "descriptor": {
+            "name" : "NCTE or CBSE" // Organisation which is publishing the session
+        },
+        "rating" : ">4"
+    },
+    "fulfillment": {
+        "type" : "online/offline", // Whether or not session is conducted online or offline.
+        "tags" : {
+            "mode" : "synchronous/asynchronous" // Live sessions are synchronous everything else is asynchronous.
+        },
+        "agent" {
+            "name" : "Pramod Verma", // Raw user search query - E.g. mentor name
+            "tags" : {
+                "rating" : "4" // Mentor Rating will come here
+            }
+        }
+    }
+}
+
+
+
+
+Search for offline session based on location - 
+
+
+"intent": {
+    "item" : {
+        "descriptor" : {
+            "name" : "10th Std Mathematics" // Session name goes here if user is directly searching sessions
+        },
+        "time" : {
+            "duration" : "P1H", // String value for time duration
+            "range" : {
+                "start" : "2022-07-21T09:35:31.820Z", // Session start date and time
+                "end" : "2022-07-21T10:35:31.820Z" // Session end date and time
+            }
+        },
+        "tags" : {
+            "certificateAttached" : true,
+            "language" : [ // User can pass multiple language codes.
+                "en",
+                "hi"
+            ]
+        },
+        "price" : {
+            "value" : "0" // How do we put a filter of paid ? And if need be specify session price range.
+        }
+    },
+    "descriptor" : {
+        "name" : "10th Std Mathematics" // Raw user search query - E.g. mentor name or session name
+    },
+    "provider" : {
+        "descriptor": {
+            "name" : "NCTE or CBSE" // Organisation which is publishing the session
+        },
+        "rating" : ">4"
+    },
+    "fulfillment": {
+        "type" : "online/offline", // Whether or not session is conducted online or offline.
+        "address" : {
+            "full" : "Full Address",
+            "door" : "Door No Address",
+            "name" : "Name on the Address",
+            "building" : "Full Address",
+            "street" : "Street Address",
+            "locality" : "Locality",
+            "ward" : "Ward Name or Number",
+            "city" : "City",
+            "state" : "State",
+            "country" : "Country Code",
+            "area_code" : "Area Code" 
+        },
+        "tags" : {
+            "mode" : "synchronous/asynchronous" // Live sessions are synchronous everything else is asynchronous.
+        },
+        "agent" {
+            "name" : "Pramod Verma", // Raw user search query - E.g. mentor name
+            "tags" : {
+                "rating" : "4" // Mentor Rating will come here
+            }
+        }
+    }
+}
