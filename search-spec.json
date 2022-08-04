@@ -495,3 +495,134 @@ Search for offline session based on location -
         }
     }
 }
+
+
+Search for Mentor by Skill/Area Of Expertise - 
+
+"intent": {
+    "descriptor" : {
+        "name" : "Experts in Mathematics" // Raw user search query - E.g. mentor expertiese in
+    },
+    "fulfillment" : {
+        "agent" : {
+            "name" : "Pramod Verma", // Raw user search query - E.g. mentor name
+            "skills": [ // Skill or area of expertiese of Mentor delivering the session
+                {
+                    "descriptor": {
+                        "name": "Maths"
+                    }
+                },
+                {
+                    "descriptor": {
+                        "name": "Algebra"
+                    }
+                }
+            ]
+        }
+    }
+}
+
+
+Search for Mentor by Gender - 
+
+"intent": {
+    "descriptor" : {
+        "name" : "Experts in Mathematics" // Raw user search query - E.g. mentor expertiese in
+    },
+    "fulfillment" : {
+        "agent" : {
+            "name" : "Pramod Verma", // Raw user search query - E.g. mentor name
+            "gender" : "male", // Gender of the mentor
+            "skills": [ // Skill or area of expertiese of Mentor delivering the session
+                {
+                    "descriptor": {
+                        "name": "Maths"
+                    }
+                },
+                {
+                    "descriptor": {
+                        "name": "Algebra"
+                    }
+                }
+            ]
+        }
+    }
+}
+
+
+Search for Mentor by Rating
+
+
+"intent": {
+    "descriptor" : {
+        "name" : "Experts in Mathematics" // Raw user search query - E.g. mentor expertiese in
+    },
+    "fulfillment" : {
+        "agent" : {
+            "name" : "Pramod Verma", // Raw user search query - E.g. mentor name
+            "gender" : "male", // Gender of the mentor
+            "skills": [ // Skill or area of expertiese of Mentor delivering the session
+                {
+                    "descriptor": {
+                        "name": "Maths"
+                    }
+                },
+                {
+                    "descriptor": {
+                        "name": "Algebra"
+                    }
+                }
+            ],
+            "tags" : {
+                "rating" : "4" // Mentor Rating will come here
+            }
+        }
+    }
+}
+
+
+Search for Mentor by Categories :- 
+
+"context": {
+    "domain": "mentoring",
+    "subDomain" : "sports/technology/healthcare/cooking" // Since scope mentoring is vast there can be BPPs with specific domain in Mentoring
+    "country": "IND",
+    "city": "std:080",
+    "action": "search",
+    "core_version": "0.9.3",
+    "bap_id": "exampleapp.io",
+    "bap_uri": "https://api.exampleapp.io/dsep/v0/",
+    "message_id": "5ac3dd78-829e-4c7d-9139-a15adbb582cc",
+    "timestamp": "2021-03-23T10:00:40.065Z"
+},
+"intent": {
+    "descriptor" : {
+        "name" : "Experts in Mathematics in Education" // Raw user search query - E.g. mentor expertiese in
+    },
+    "category" : { // When looking for experts in a particular sector and in a category.
+        "name" : "technology",
+        "code" : "IT",
+        "parentCategoryId" : "1"
+    },
+    "fulfillment" : {
+        "agent" : {
+            "name" : "Pramod Verma", // Raw user search query - E.g. mentor name
+            "gender" : "male", // Gender of the mentor
+            "skills": [ // Skill or area of expertiese of Mentor delivering the session
+                {
+                    "descriptor": {
+                        "name": "Maths"
+                    }
+                },
+                {
+                    "descriptor": {
+                        "name": "Algebra"
+                    }
+                }
+            ],
+            "tags" : {
+                "rating" : "4" // Mentor Rating will come here
+            }
+        }
+    }
+}
