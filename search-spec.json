@@ -126,7 +126,7 @@ Search for Session -
     }
 }
 
-
+Question - In case a mentoring session is a 1-1 like a doctor appointment , is item an individual slot by the mentor or is the availability of Mentor in a day an each item?
 
 Search for Mentor - 
 
@@ -622,6 +622,160 @@ Search for Mentor by Categories :-
             ],
             "tags" : {
                 "rating" : "4" // Mentor Rating will come here
+            }
+        }
+    }
+}
+
+
+Search for Mentor by Institute :- 
+
+
+"intent": {
+    "descriptor" : {
+        "name" : "Professor ABC from FTIJEE" // Raw user search query - E.g. mentor expertiese in
+    },
+    "provider" : {
+        "descriptor": {
+            "name" : "FITJEE" // Organisation which the mentor belongs to
+        }
+    },
+    "fulfillment" : {
+        "agent" : {
+            "name" : "Professor ABC from FTIJEE" // Raw user search query - E.g. mentor name
+        }
+    }
+}
+
+
+Search for Mentor by Work Experience :- 
+
+
+"intent": {
+    "descriptor" : {
+        "name" : "Professor ABC from FTIJEE" // Raw user search query - E.g. mentor expertiese in
+    },
+    "provider" : {
+        "descriptor": {
+            "name" : "FITJEE" // Organisation which the mentor belongs to
+        }
+    },
+    "fulfillment" : {
+        "agent" : {
+            "name" : "Professor ABC from FTIJEE", // Raw user search query - E.g. mentor name
+            "skills": [ // Skill or area of expertiese of Mentor delivering the session
+                {
+                    "descriptor": {
+                        "name": "Maths"
+                    },
+                    "experience" : ">10"
+                },
+                {
+                    "descriptor": {
+                        "name": "Algebra"
+                    },
+                    "experience" : ">5"
+                }
+            ],
+        }
+    }
+}
+
+Search for Mentor who is available online/offline in a particular location:-
+
+"intent": {
+    "descriptor" : {
+        "name" : "Professor ABC from FTIJEE" // Raw user search query - E.g. mentor expertiese in
+    },
+    "provider" : {
+        "descriptor": {
+            "name" : "FITJEE" // Organisation which the mentor belongs to
+        }
+    },
+    "fulfillment" : {
+        "type" : "online/offline", // Whether or not session is conducted online or offline.
+        "address" : {
+            "full" : "Full Address",
+            "door" : "Door No Address",
+            "name" : "Name on the Address",
+            "building" : "Full Address",
+            "street" : "Street Address",
+            "locality" : "Locality",
+            "ward" : "Ward Name or Number",
+            "city" : "City",
+            "state" : "State",
+            "country" : "Country Code",
+            "area_code" : "Area Code" 
+        },
+        "agent" : {
+            "name" : "Professor ABC from FTIJEE", // Raw user search query - E.g. mentor name
+            "skills": [ // Skill or area of expertiese of Mentor delivering the session
+                {
+                    "descriptor": {
+                        "name": "Maths"
+                    },
+                    "experience" : ">10"
+                },
+                {
+                    "descriptor": {
+                        "name": "Algebra"
+                    },
+                    "experience" : ">5"
+                }
+            ],
+        }
+    }
+}
+
+
+
+Search for Mentor based on their language :- 
+
+"intent": {
+    "descriptor" : {
+        "name" : "Professor ABC from FTIJEE" // Raw user search query - E.g. mentor expertiese in
+    },
+    "provider" : {
+        "descriptor": {
+            "name" : "FITJEE" // Organisation which the mentor belongs to
+        }
+    },
+    "fulfillment" : {
+        "type" : "online/offline", // Whether or not session is conducted online or offline.
+        "address" : {
+            "full" : "Full Address",
+            "door" : "Door No Address",
+            "name" : "Name on the Address",
+            "building" : "Full Address",
+            "street" : "Street Address",
+            "locality" : "Locality",
+            "ward" : "Ward Name or Number",
+            "city" : "City",
+            "state" : "State",
+            "country" : "Country Code",
+            "area_code" : "Area Code" 
+        },
+        "agent" : {
+            "name" : "Professor ABC from FTIJEE", // Raw user search query - E.g. mentor name
+            "skills": [ // Skill or area of expertiese of Mentor delivering the session
+                {
+                    "descriptor": {
+                        "name": "Maths"
+                    },
+                    "experience" : ">10"
+                },
+                {
+                    "descriptor": {
+                        "name": "Algebra"
+                    },
+                    "experience" : ">5"
+                }
+            ],
+            "tags" : {
+                "language" : [ // User can pass multiple language codes.
+                    "en",
+                    "hi"
+                ]
             }
         }
     }
