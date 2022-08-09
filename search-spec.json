@@ -780,3 +780,149 @@ Search for Mentor based on their language :-
         }
     }
 }
+
+
+
+
+On Search Schema for Sessions - 
+
+https://app.swaggerhub.com/apis-docs/beckn/beckn-protocol-core-specification/1.0.0-draft#/Beckn%20App%20Platform%20(BAP)/post_on_search
+
+Define provider, item and fulfillment and the relationship between them ?
+Can a BPP have multiple providers?
+Can a Item have multiple fulfillment ids ?
+Why does a fulfillment object have a provider id, given that it falls under a provider only ?
+
+https://github.com/beckn/DSEP-Specification/discussions/34
+
+
+{
+    "context": {
+      "domain": "mentoring",
+      "subDomain" : "sports/technology/healthcare/cooking" // Since scope mentoring is vast there can be BPPs with specific domain in Mentoring
+      "country": "IND",
+      "city": "std:080",
+      "action": "search",
+      "core_version": "0.9.3",
+      "bpp_id": "exampleapp.io",
+      "bpp_uri": "https://api.exampleapp.io/dsep/v0/",
+      "message_id": "5ac3dd78-829e-4c7d-9139-a15adbb582cc",
+      "timestamp": "2021-03-23T10:00:40.065Z"
+    },
+    "message": {
+      "catalog": {
+        "bpp/descriptor": {
+          "name": "NCTE"
+        },
+        "providers": {
+          "descriptor": {
+            "name": "Infosys"
+          },
+          "categories": [
+            {
+              "id": "1",
+              "name": "Frontend Jobs"
+            },
+            {
+              "id": "2",
+              "name": "Backend Jobs"
+            }
+          ],
+          "items": [
+            {
+              "descriptor": {
+                "name": "Senior Software Developer",
+                "code": "SSFD"
+              },
+              "fulfillment_id": "1",
+              "category_id": "1",
+              "matched": true
+            },
+            {
+              "descriptor": {
+                "name": "Software Consultant - On site",
+                "code": "SWCO"
+              },
+              "fulfillment_id": "1",
+              "category_id": "1",
+              "matched": "false"
+            },
+            {
+              "descriptor": {
+                "name": "Software Consultant - Remote",
+                "code": "SWCR"
+              },
+              "fulfillment_id": "2",
+              "category_id": "2",
+              "matched": "false"
+            }
+          ]
+        },
+        "fulfillments": [
+          {
+            "id": "1",
+            "descriptor": {
+              "name": "Full-time"
+            },
+            "start": {
+              "location": {
+                "city": "BLR"
+              }
+            }
+          },
+          {
+            "id": "2",
+            "descriptor": {
+              "name": "On-site"
+            },
+            "start": {
+              "location": {
+                "city": "BLR"
+              },
+              "time": {
+                "timestamp": "2022-08-10"
+              }
+            },
+            "end": {
+              "location": {
+                "city": "BLR"
+              },
+              "time": {
+                "timestamp": "2022-08-10"
+              }
+            }
+          },
+          {
+            "id": "3",
+            "descriptor": {
+              "name": "Remote"
+            },
+            "start": {
+              "time": {
+                "timestamp": "2022-08-10"
+              }
+            },
+            "end": {
+              "time": {
+                "timestamp": "2022-08-10"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+
+
+
+
+On Search Schema for mentors - 
+
+
+
+
+
+
+https://app.swaggerhub.com/apis-docs/beckn/beckn-protocol-core-specification/1.0.0-draft#/Beckn%20App%20Platform%20(BAP)/post_on_search
+https://docs.google.com/spreadsheets/d/1I5QrbxZKN0yem0TdQkR-zI5KkLYz9M3QG9TGRFgJGCQ/edit#gid=1739564754
+https://app.swaggerhub.com/apis/AKS301190/DSEP4Aug/2#/Beckn%20App%20Platform%20(BAP)/post_on_search
