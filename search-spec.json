@@ -814,61 +814,75 @@ https://github.com/beckn/DSEP-Specification/discussions/34
         "bpp/descriptor": {
           "name": "NCTE"
         },
-        "providers": {
+        "bpp/providers": [
+            {
           "descriptor": {
             "name": "Infosys"
           },
-          "categories": [
-            {
-              "id": "1",
-              "name": "Frontend Jobs"
-            },
-            {
-              "id": "2",
-              "name": "Backend Jobs"
-            }
-          ],
+          "categories": [],
           "items": [
             {
+            "id":"5"
               "descriptor": {
-                "name": "Senior Software Developer",
-                "code": "SSFD"
+                "name": "10th Std Mathematics",
+                 "code" : "X-MATH-CBSE",
+                 "short_desc" : "10th Standard Mathematics (CBSE) lecture",
+                "long_desc" : "10th Standard Mathematics (CBSE) lecture",
+                "images" : [
+                    "https://google.com/images/image1.png"
+                ]
               },
               "fulfillment_id": "1",
-              "category_id": "1",
+              "price": {
+                  "value": "0"
+              }
               "matched": true
             },
             {
               "descriptor": {
-                "name": "Software Consultant - On site",
-                "code": "SWCO"
+                "name": "10th Std Mathematics CBSE",
+                "code": "SWCO",
               },
               "fulfillment_id": "1",
-              "category_id": "1",
-              "matched": "false"
-            },
-            {
-              "descriptor": {
-                "name": "Software Consultant - Remote",
-                "code": "SWCR"
-              },
-              "fulfillment_id": "2",
-              "category_id": "2",
               "matched": "false"
             }
           ]
-        },
+        }
+        ],
         "fulfillments": [
           {
             "id": "1",
+            "type": "ONLINE",
             "descriptor": {
               "name": "Full-time"
             },
-            "start": {
-              "location": {
-                "city": "BLR"
-              }
+            "agent": {
+                "name" : "Dr Rajiv Manocha",
+                "tags" : {
+                   "subjects" : "maths, physics",
+                    "grades" : "X, XI, XII",
+                    "boards" : "CBSE, ICSE",
+                    "rating:"5"
+                },
+                "image":"https://srf",
+                "gender": "M"
             }
+            "start": {
+                "location": {
+                    "city": "BLR"
+                    },
+                "time": {
+                    "timestamp": "2022-08-10"
+                  }
+                },
+                "end": {
+                    "location": {
+                    "city": "BLR"
+                    },
+                    "time": {
+                    "timestamp": "2022-08-11"
+                    }
+                }
           },
           {
             "id": "2",
