@@ -792,6 +792,7 @@ Define provider, item and fulfillment and the relationship between them ?
 Can a BPP have multiple providers?
 Can a Item have multiple fulfillment ids ?
 Why does a fulfillment object have a provider id, given that it falls under a provider only ?
+How can we map an item to multiple category?
 
 https://github.com/beckn/DSEP-Specification/discussions/34
 
@@ -814,6 +815,16 @@ https://github.com/beckn/DSEP-Specification/discussions/34
         "bpp/descriptor": {
           "name": "NCTE"
         },
+        "bpp/categories":[
+            {
+                "id":"123",
+                "description":"",
+                "descriptor": {
+                    "name":"Education Leadership",
+                    "code":"EL"
+                }
+            }
+        ]
         "bpp/providers": [
             {
           "descriptor": {
@@ -822,8 +833,9 @@ https://github.com/beckn/DSEP-Specification/discussions/34
           "categories": [],
           "items": [
             {
-            "id":"5"
-              "descriptor": {
+            "id":"5",
+            "category_id":"123",
+            "descriptor": {
                 "name": "10th Std Mathematics",
                  "code" : "X-MATH-CBSE",
                  "short_desc" : "10th Standard Mathematics (CBSE) lecture",
@@ -835,7 +847,7 @@ https://github.com/beckn/DSEP-Specification/discussions/34
               "fulfillment_id": "1",
               "price": {
                   "value": "0"
-              }
+              },
               "matched": true
             },
             {
@@ -856,6 +868,11 @@ https://github.com/beckn/DSEP-Specification/discussions/34
             "descriptor": {
               "name": "Full-time"
             },
+            "tags": {
+                "status": "Live/Published",
+                "timeZone":""
+
+            }
             "agent": {
                 "name" : "Dr Rajiv Manocha",
                 "tags" : {
@@ -868,19 +885,13 @@ https://github.com/beckn/DSEP-Specification/discussions/34
                 "gender": "M"
             }
             "start": {
-                "location": {
-                    "city": "BLR"
-                    },
                 "time": {
-                    "timestamp": "2022-08-10"
+                    "timestamp": "2022-08-10 10:00AM"
                   }
                 },
                 "end": {
-                    "location": {
-                    "city": "BLR"
-                    },
                     "time": {
-                    "timestamp": "2022-08-11"
+                        "timestamp": "2022-08-11 12:00PM"
                     }
                 }
           },
@@ -890,17 +901,11 @@ https://github.com/beckn/DSEP-Specification/discussions/34
               "name": "On-site"
             },
             "start": {
-              "location": {
-                "city": "BLR"
-              },
               "time": {
                 "timestamp": "2022-08-10"
               }
             },
             "end": {
-              "location": {
-                "city": "BLR"
-              },
               "time": {
                 "timestamp": "2022-08-10"
               }
@@ -940,4 +945,3 @@ On Search Schema for mentors -
 https://app.swaggerhub.com/apis-docs/beckn/beckn-protocol-core-specification/1.0.0-draft#/Beckn%20App%20Platform%20(BAP)/post_on_search
 https://docs.google.com/spreadsheets/d/1I5QrbxZKN0yem0TdQkR-zI5KkLYz9M3QG9TGRFgJGCQ/edit#gid=1739564754
 https://app.swaggerhub.com/apis/AKS301190/DSEP4Aug/2#/Beckn%20App%20Platform%20(BAP)/post_on_search
-https://github.com/beckn/DSEP-Specification/discussions/34
